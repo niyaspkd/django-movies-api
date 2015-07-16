@@ -110,6 +110,7 @@
  <li>/movies/?title=nameofthegenre or /movies/?name=moviename or/movies/?director=nameofdirector ..etc also popularity and idbd score </li>
 
 <li>searches: /movies/1 to get 1st movies detail ,/movies/2 to get 2nd etc eyc </li>
+<li> go to /list to get a list of filtered movie names between two given imdb scores </li> 
 </ul>
 </div>
   </body>

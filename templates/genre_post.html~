@@ -28,7 +28,7 @@
       <div class="container">
       <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Options <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<span class="caret"></span></a>
 
             <ul class="dropdown-menu" role="menu">
                 <!-- these pages don't require user token -->
@@ -105,10 +105,13 @@
 
 <h3>Django Movies API </h3>
 <h4> how it works </h4>
+
 <li>Register as admin or user</li>
 <li>for admins to add movies go to /add_movies or /add_genre to add genre</li>
+ <li>/movies/?title=nameofthegenre or /movies/?name=moviename or/movies/?director=nameofdirector ..etc also popularity and idbd score </li>
 
 <li>searches: /movies/1 to get 1st movies detail ,/movies/2 to get 2nd etc eyc </li>
+<li> go to /list to get a list of filtered movie names between two given imdb scores </li> 
 </ul>
 </div>
   </body>
